@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GW4 Isambard</title>
+    <link>https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public/</link>
+    <description>Recent content on GW4 Isambard</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Tue, 13 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MACS Major Upgrade to RHEL8</title>
+      <link>https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public/posts/updates/macs-rhel8/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public/posts/updates/macs-rhel8/</guid>
+      <description>The GW4 Isambard Multi-Architecture Comparison System will be unavailable for the week of the 19th April to perform planned upgrades &amp;amp; maintenance of the software stack.
+This is a major software upgrade to Red Hat Enterprise Linux 8, bringing the Operating System major version inline with the A64FX service, it will provide a better base for software development and improve the MACS compatibility with scientific software, including the Cray software stack.
+Some user software compatibility issues are to be expected due to changed/updated libraries, so recompilations may be required to continue running on MACS.
+XCI &amp;amp; A64FX remain available during this time.</description>
+    </item>
+    
+    <item>
+      <title>Isambard A64fx hackathon, March 23-24 - &#34;Full steam ahead!&#34;</title>
+      <link>https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public/posts/events/hackathon3/</link>
+      <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public/posts/events/hackathon3/</guid>
+      <description>A two-day hackathon to focus on porting and optimising HPC codes to the latest Arm-based processor: Fujitsu&amp;rsquo;s A64fx
+Tue, 23 Mar 2021, 09:30 – Wed, 24 Mar 2021, 17:00 GMT
+https://www.eventbrite.co.uk/e/the-3rd-isambard-hackathon-full-steam-ahead-tickets-143718930189
+Hackthon Description The third in the Isambard hackathon series will take place online via Zoom, and focus on porting and optimising codes to the processor behind Fugaku, the fastest supercomputer in the world - the Arm-based A64fx from Fujitsu. Isambard now includes a rack of 72 A64fx processors, along with Cray, Arm and GNU compilers.
+The hackathon will begin with a training session from Arm and Cray/HPE on the architecture and software tools, before moving into the hands-on part of the hackathon. All attendees will be given accounts on the Isambard A64fx Apollo 80 system for the duration of the event. Accounts may be available to continue porting activities post the event, upon request. For more details about the system, see:
+https://gw4-isambard.github.io/docs/
+Schedule (all times GMT) Tuesday March 23rd: 09:30 - 09:40: Welcome and introductions (Prof. Simon McIntosh-Smith, Isambard PI)
+09:40-11:30: An introduction to the A64fx architecture, including SVE and software tools (Phil Ridley, Arm)
+11:30-11:45: Break
+11:45-12:45: The A64fx software environment on the HPE Apollo 80 (John Levesque, Cray/HPE)
+12:45-14:00: Lunch
+14:00-17:00: Hands-on hackathon, supported by Isambard GW4, Arm and Cray/HPE staff
+Wednesday March 24th: 09:30-11:00: Review of Tuesday&amp;rsquo;s session and hackathon continuation
+11:00-11:30: Break
+11:30-13:00: Hackathon cont.
+13:00-14:00: Lunch
+14:00-17:00: Hackathon cont.
+17:00: Hackathon wrap-up and next steps.
+Zoom meeting details These will be emailed to you as part of your tickets.
+Previous Isambard Hackathons Isambard has run two previous hackathons which were extremely successful. Run in October 2017 and March 2018, they were some of the very first public events porting HPC codes to production Arm hardware. This third Isambard hackathon is one of the very first such public events targetting the A64fx, and the first in Europe.
+The Isambard 2 A64fx Apollo 80 system includes 72 A64fx CPUs, and Infiniband interconnect, and the Cray/HPE, Arm and GNU compilers for Arm. Hackathon attendees will be given training accounts on the system for the hackathon, and may be permitted to retain access after the hackathon to continue porting and optimisation activities.
+Isambard is a UK National Tier-2 service, funded by EPSRC (EP/P020224/1). Isambard is run by the GW4 Alliance of the universities of Bristol, Bath, Cardiff and Exeter, along with the UK&amp;rsquo;s Met Office.
+Previous results from Isambard were published at the Cray User Group workshops in 2018 and 2019, winning the best paper award in 2019:
+McIntosh‐Smith, Simon, James Price, Tom Deakin, and Andrei Poenaru. &amp;ldquo;A performance analysis of the first generation of HPC‐optimized Arm processors.&amp;rdquo; Concurrency and Computation: Practice and Experience 31, no. 16 (2019): e5110.
+https://doi.org/10.1002/cpe.5110
+McIntosh‐Smith, Simon, James Price, Andrei Poenaru, and Tom Deakin. &amp;ldquo;Benchmarking the first generation of production quality Arm‐based supercomputers.&amp;rdquo; Concurrency and Computation: Practice and Experience 32, no. 20 (2020): e5569.
+https://doi.org/10.1002/cpe.5569</description>
+    </item>
+    
+    <item>
+      <title>Cray Compiler Environment (CCE) 9.0.0 installed</title>
+      <link>https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public/posts/updates/cce-9/</link>
+      <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public/posts/updates/cce-9/</guid>
+      <description>Cray CCE 9.0.0 has been installed on XCI, feel free to test it out by loading the cdt/19.06 module!
+This is a major revision to CCE with the compilers being based on LLVM.
+Documentation can be found here: https://pubs.cray.com/content/S-5212/9.0/cray-compiling-environment-cce-release-overview/cce-900-release-overview-introduction</description>
+    </item>
+    
+    <item>
+      <title>XCI: Huge page bug fixed</title>
+      <link>https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public/posts/updates/hugepage-fixed/</link>
+      <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public/posts/updates/hugepage-fixed/</guid>
+      <description>Cray has deployed the first monthly patchset on XCI which has included a fix for the Out-Of-Memory errors which some jobs using Huge Pages have experienced.</description>
+    </item>
+    
+    <item>
+      <title>Isambard XC50 software &amp; chip updates</title>
+      <link>https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public/posts/announcements/xci-software-and-chip-upgrade/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public/posts/announcements/xci-software-and-chip-upgrade/</guid>
+      <description>Next week (w/c 11th March), we will be shutting down XCI to upgrade both the hardware and system software. This process will likely take the full week, and so we expect to resume service from Monday 18th March.
+These upgrades will move us to Cray Linux Environment 7.0, which bumps the underlying Operating System from SLES 12 to SLES 15. It is expected that this may cause existing dynamically linked executables to fail to run, so we recommend recompiling any such programs that you may have once the upgrade is completed. Note that after the upgrade, the minimum available Cray Developer Toolkit will be CDT 19.03, and so you may encounter some issues when recompiling your codes.
+Updates 14 March: The upgrade is proceeding smoothly, XCI is running it&amp;rsquo;s new software stack on fresh chips!
+We are working now to ensure the service is stable, configured correctly for user access and any hardware bugs are caught early.</description>
+    </item>
+    
+    <item>
+      <title>XCI: System update</title>
+      <link>https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public/posts/updates/xci-update/</link>
+      <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public/posts/updates/xci-update/</guid>
+      <description>Cray CDT/18.12 installed as module cdt/18.12
+Cray CDT/18.11 remains available
+Arm Compiler version 19 installed as module PrgEnv-allinea
+Arm Compiler version 18.4.2 is also available
+GCC 8.2.0 installed as module gcc/8.2.0
+GCC 7.3.0 &amp;amp; GCC 6.1.0 are also available.
+All of the new modules have been set as the default versions, which means they will be loaded if you omit the version number from the module name.</description>
+    </item>
+    
+    <item>
+      <title>New documentation!</title>
+      <link>https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public/posts/announcements/new-docs/</link>
+      <pubDate>Tue, 16 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public/posts/announcements/new-docs/</guid>
+      <description>New Isambard user documentation source! =&amp;gt; https://gw4-isambard.github.io/docs/
+If you want to contribute we&amp;rsquo;re happy to review pull requests, or just email changes your local GW4 SysAdmin!</description>
+    </item>
+    
+    <item>
+      <title>XC50 Approaches...</title>
+      <link>https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public/posts/updates/xc50-approaches/</link>
+      <pubDate>Thu, 07 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public/posts/updates/xc50-approaches/</guid>
+      <description>The single cabinet consists of approx 164 compute nodes of 64 cores each, for a total of 10&#39;496 cores of Cavium Thunder X2 ARMv8, backed by the same Aries interconnect. A 0.5 Petabyte Lustre filesystem is dedicated to the Isambard system.
+Discussions are underway on acceptance tests, we expect to run HPL (LINPACK), HPCG, STREAM, MPI &amp;amp; I/O benchmarks. Some practical codes will also be run for comparison against the numbers produced on the Early Access nodes ( http://www.goingarm.com/slides/2017/SC17/GoingArm_SC17_Bristol_Isambard.pdf ), including UM/NEMO, a chemistry and an engineering code.
+The HPC group at Bristol Uni has recently put out a paper on these numbers in more depth: https://uob-hpc.github.io/assets/cug-2018.pdf</description>
+    </item>
+    
+    <item>
+      <title>Isambard Hackathon #2 &#34;Stoking The Fire&#34;</title>
+      <link>https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public/posts/events/stoking-the-first/</link>
+      <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public/posts/events/stoking-the-first/</guid>
+      <description>The second Isambard hackathon &amp;ldquo;Stoking The Fire&amp;rdquo; ended yesterday after a day and a half of hacking on the second half of the top 10 most common Archer codes + UM/NEMO. There were specialists for each code in attendance, Cray compiler developers and Cavium engineers.
+I was really pleased to see the system handling the workload without incident and surprised that this time not a single node crashed! That alone makes the week it took to upgrade the ARM chips worth it!
+There were bugs in some codes being run, there were even a couple of compiler and performance tool bugs discovered and raised with Cray; At this early stage every bug found is a step towards getting the platform closer to operational quality!
+I spent my time helping users, applying hotfixes, investigating enhancement requests and eating the sandwiches.
+The following codes were run successfully:
+ CASTEP OpenFOAM SBLI UM NEMO Molpro NAMD Hydro3D Bookleaf  </description>
+    </item>
+    
+    <item>
+      <title>Media coverage</title>
+      <link>https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public/media/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public/media/</guid>
+      <description>2020  TheNextPlatform - Isambard 2 Is About Driving Technology Diversity InsideHPC - Isambard 2 at UK Met Office to be largest Arm supercomputer in Europe  2019  University of Bristol HPC - Isambard wins &amp;ldquo;Best Paper&amp;rdquo; award at the 2019 Cray User Group (CUG) Conference in Montreal  2018  HPCWire - GW4, the MET Office, and Cray Power Up the Largest ARM-based Supercomputer in Europe Top500 - Benchmarks in Hand, UK Academics See Promising Future for Arm Chips in HPC University of Bristol HPC - Isambard Arm results showcased at the 2018 Cray User Group (CUG) Conference in Stockholm  2017  TheNextPlatform - ARM Benchmarks Show HPC Ripe for Processor Shakeup TheNextPlatform - Cray ARMs Highest End Supercomputer with ThunderX2 Top500 - Cray to Deliver ARM-Powered Supercomputer to UK Consortium InsideHPC - Future Technologies on the Rise for HPC GW4 - GW4 JOINS INDUSTRY PARTNERS TO DEVELOP ‘FIRST OF ITS KIND’ SUPERCOMPUTER  </description>
+    </item>
+    
+    <item>
+      <title>System Overview</title>
+      <link>https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public/overview/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public/overview/</guid>
+      <description>Isambard is a HPC service provided by GW4 and the UK Met Office. The system is funded by EPSRC and is one of a number of Tier-2 HPC facilities in the UK.
+Isambard includes a production Cray XC50 system, named &amp;ldquo;XCI&amp;rdquo;, which comprises 20,992 cores, and is one of the world’s first production Arm-based supercomputers. While Isambard is not based on the more common x86 processors from Intel and AMD, most software compiles and runs on Isambard with no or minimal changes.
+Each of the 329 compute nodes contain two 32-core Marvell ThunderX2 processors running at 2.5 GHz. 160 nodes have 256 GB and 169 have 512 GB of memory, both at DDR4-2666MHz. The nodes are connected via Cray Aries interconnect in a Dragonfly topology. A Cray Sonexion 3000 storage cabinet provides 900 terabytes of Lustre storage.
+Isambard includes one of the first production Fujitsu A64FX CPU clusters, which comprises 72 nodes of 1.8GHz ARMv8.2 CPUs with scalable vector extension (SVE) up to 512-bit, 32GB HBM2 memory on the die arranged in 4 Core Memory Groups (CMGs) each with 12 cores, 8GB HBM2, 64KB private L1 cache &amp;amp; 8MB shared L2 cache per CMG.
+A64FX is connected with EDR InfiniBand and has access to a dedicated 660GB Lustre filesystem alongside the existing Lustre filesystem.
+The Isambard service also includes the Multi-Architecture Comparison System, or &amp;ldquo;MACS&amp;rdquo;, which comprises a Cray CS cabinet with a diverse set of nodes:
+ 2x Login nodes with Intel Xeon “Broadwell” CPU 4x nodes of Nvidia Pascal GPU with 2x Nvidia P100 “Pascal” GPUs and Intel Xeon E5-2695 v4 “Broadwell” CPU 4x nodes of Nvidia Volta GPU with 1x Nvidia V100 “Volta” GPU and Intel Xeon Gold 6230 “Cascade Lake (CLX)” CPU 4x nodes of AMD Epyc 7742 “Rome” @ 2.25GHz 64-core CPU nodes with DDR4-3200Mhz over 8 memory channels, AVX-512 4x nodes of Intel Xeon Gold 6230 “Cascade Lake (CLX)” @ 2.10GHz 20-core CPU nodes with DDR4-2933MHz over 6 memory channels, AVX-512 8x nodes of Intel Xeon Phi “Knights Landing” 7210 CPU @ 1.30GHz (1.50GHz Turbo) with AVX-512; 4x nodes set HBM2 in cache mode &amp;amp; 4x nodes set HBM2 as extended memory 2x nodes of IBM Power 9 System AC922 with 2x Nvidia V100 “Volta” GPU  Evolving system MACS has gone through several revisions, including upgrading the base operating system up through the RHEL 7.x series. Now with the upgrade to RHEL 8 we can take lessons learned and improve our software deployment processes. MACS has been augmented with more interesting architectures over time, expanding on our GPU nodes with newer Volta nodes and adding to the x86 pool with Intel Cascade Lake CPU nodes.
+Isambard operated some of the first ThunderX2 Arm compute nodes through collaboration with Cavium, this provided us a glimpse into the platform&amp;rsquo;s performance characteristics. The Linux kernel was patched by Cray to include upstream patches from Cavium to better support ThunderX2. Initially the CPU hardware revision we were provided only worked in single-socket mode, firmware updates were applied through hardware-flashing the ROM chips and new ThunderX2 hardware revisions were supplied to enable dual-socket operation. These nodes were retired once XCI was running in production.
+Intel loaned Isambard two Skylake nodes, these were used to compare Skylake against Broadwell CPU performance, and to compare Thunder X2 against Intel&amp;rsquo;s current HPC platform. These were also the first Intel CPUs to support AVX-512 since its introduction in the Knights Landing many-core CPU series. These nodes have been retired.
+IBM Power 9 AC922 nodes were added to complete our coverage of the current CPU ecosystem, each node has two Nvidia Volta GPUs connected via IBM&amp;rsquo;s CAPI bus. Summit, the world&amp;rsquo;s #1 supercomputer as of 2020, uses these nodes.
+XCI was expanded in November 2018, doubling its CPU capacity with high memory nodes. These integrate seamlessly into the existing service, connecting to the same Aries interconnect electrical group, which ensures equivilent per-node performance characteristics across the cluster.
+A64FX was installed late 2020, the cluster is equipped with Fujitsu A64FX CPUs designed for Fugaku, the world&amp;rsquo;s #1 supercomputer as of early 2021, which include HBM2 memory integrated directory on the die and the world&amp;rsquo;s first implementation of Arm Scalable Vector Extensions. Isambard&amp;rsquo;s A64FX is unique for supporting the full Cray software stack &amp;amp; compilers.</description>
+    </item>
+    
+  </channel>
+</rss>

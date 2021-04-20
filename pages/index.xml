@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pages on GW4 Isambard</title>
+    <link>https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public/pages/</link>
+    <description>Recent content in Pages on GW4 Isambard</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Media coverage</title>
+      <link>https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public/media/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public/media/</guid>
+      <description>2020  TheNextPlatform - Isambard 2 Is About Driving Technology Diversity InsideHPC - Isambard 2 at UK Met Office to be largest Arm supercomputer in Europe  2019  University of Bristol HPC - Isambard wins &amp;ldquo;Best Paper&amp;rdquo; award at the 2019 Cray User Group (CUG) Conference in Montreal  2018  HPCWire - GW4, the MET Office, and Cray Power Up the Largest ARM-based Supercomputer in Europe Top500 - Benchmarks in Hand, UK Academics See Promising Future for Arm Chips in HPC University of Bristol HPC - Isambard Arm results showcased at the 2018 Cray User Group (CUG) Conference in Stockholm  2017  TheNextPlatform - ARM Benchmarks Show HPC Ripe for Processor Shakeup TheNextPlatform - Cray ARMs Highest End Supercomputer with ThunderX2 Top500 - Cray to Deliver ARM-Powered Supercomputer to UK Consortium InsideHPC - Future Technologies on the Rise for HPC GW4 - GW4 JOINS INDUSTRY PARTNERS TO DEVELOP ‘FIRST OF ITS KIND’ SUPERCOMPUTER  </description>
+    </item>
+    
+    <item>
+      <title>System Overview</title>
+      <link>https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public/overview/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public/overview/</guid>
+      <description>Isambard is a HPC service provided by GW4 and the UK Met Office. The system is funded by EPSRC and is one of a number of Tier-2 HPC facilities in the UK.
+Isambard includes a production Cray XC50 system, named &amp;ldquo;XCI&amp;rdquo;, which comprises 20,992 cores, and is one of the world’s first production Arm-based supercomputers. While Isambard is not based on the more common x86 processors from Intel and AMD, most software compiles and runs on Isambard with no or minimal changes.
+Each of the 329 compute nodes contain two 32-core Marvell ThunderX2 processors running at 2.5 GHz. 160 nodes have 256 GB and 169 have 512 GB of memory, both at DDR4-2666MHz. The nodes are connected via Cray Aries interconnect in a Dragonfly topology. A Cray Sonexion 3000 storage cabinet provides 900 terabytes of Lustre storage.
+Isambard includes one of the first production Fujitsu A64FX CPU clusters, which comprises 72 nodes of 1.8GHz ARMv8.2 CPUs with scalable vector extension (SVE) up to 512-bit, 32GB HBM2 memory on the die arranged in 4 Core Memory Groups (CMGs) each with 12 cores, 8GB HBM2, 64KB private L1 cache &amp;amp; 8MB shared L2 cache per CMG.
+A64FX is connected with EDR InfiniBand and has access to a dedicated 660GB Lustre filesystem alongside the existing Lustre filesystem.
+The Isambard service also includes the Multi-Architecture Comparison System, or &amp;ldquo;MACS&amp;rdquo;, which comprises a Cray CS cabinet with a diverse set of nodes:
+ 2x Login nodes with Intel Xeon “Broadwell” CPU 4x nodes of Nvidia Pascal GPU with 2x Nvidia P100 “Pascal” GPUs and Intel Xeon E5-2695 v4 “Broadwell” CPU 4x nodes of Nvidia Volta GPU with 1x Nvidia V100 “Volta” GPU and Intel Xeon Gold 6230 “Cascade Lake (CLX)” CPU 4x nodes of AMD Epyc 7742 “Rome” @ 2.25GHz 64-core CPU nodes with DDR4-3200Mhz over 8 memory channels, AVX-512 4x nodes of Intel Xeon Gold 6230 “Cascade Lake (CLX)” @ 2.10GHz 20-core CPU nodes with DDR4-2933MHz over 6 memory channels, AVX-512 8x nodes of Intel Xeon Phi “Knights Landing” 7210 CPU @ 1.30GHz (1.50GHz Turbo) with AVX-512; 4x nodes set HBM2 in cache mode &amp;amp; 4x nodes set HBM2 as extended memory 2x nodes of IBM Power 9 System AC922 with 2x Nvidia V100 “Volta” GPU  Evolving system MACS has gone through several revisions, including upgrading the base operating system up through the RHEL 7.x series. Now with the upgrade to RHEL 8 we can take lessons learned and improve our software deployment processes. MACS has been augmented with more interesting architectures over time, expanding on our GPU nodes with newer Volta nodes and adding to the x86 pool with Intel Cascade Lake CPU nodes.
+Isambard operated some of the first ThunderX2 Arm compute nodes through collaboration with Cavium, this provided us a glimpse into the platform&amp;rsquo;s performance characteristics. The Linux kernel was patched by Cray to include upstream patches from Cavium to better support ThunderX2. Initially the CPU hardware revision we were provided only worked in single-socket mode, firmware updates were applied through hardware-flashing the ROM chips and new ThunderX2 hardware revisions were supplied to enable dual-socket operation. These nodes were retired once XCI was running in production.
+Intel loaned Isambard two Skylake nodes, these were used to compare Skylake against Broadwell CPU performance, and to compare Thunder X2 against Intel&amp;rsquo;s current HPC platform. These were also the first Intel CPUs to support AVX-512 since its introduction in the Knights Landing many-core CPU series. These nodes have been retired.
+IBM Power 9 AC922 nodes were added to complete our coverage of the current CPU ecosystem, each node has two Nvidia Volta GPUs connected via IBM&amp;rsquo;s CAPI bus. Summit, the world&amp;rsquo;s #1 supercomputer as of 2020, uses these nodes.
+XCI was expanded in November 2018, doubling its CPU capacity with high memory nodes. These integrate seamlessly into the existing service, connecting to the same Aries interconnect electrical group, which ensures equivilent per-node performance characteristics across the cluster.
+A64FX was installed late 2020, the cluster is equipped with Fujitsu A64FX CPUs designed for Fugaku, the world&amp;rsquo;s #1 supercomputer as of early 2021, which include HBM2 memory integrated directory on the die and the world&amp;rsquo;s first implementation of Arm Scalable Vector Extensions. Isambard&amp;rsquo;s A64FX is unique for supporting the full Cray software stack &amp;amp; compilers.</description>
+    </item>
+    
+  </channel>
+</rss>
