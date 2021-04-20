@@ -19,10 +19,18 @@ paginate = 10
   sourceURL = "https://github.com/gw4-isambard/blog"
 
 [menus]
-  #[[menu.nav]]
-  #  name = "Home"
-  #  url = "/"
-  #  weight = 1
+  [[menu.nav]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.nav]]
+    name = "System Overview"
+    url = "/overview"
+    weight = 1
+  [[menu.nav]]
+    name = "Media Coverage"
+    url = "/media"
+    weight = 2
   [[menu.link]]
     name = "User Documentation"
     url = "https://gw4-isambard.github.io/docs"
@@ -30,6 +38,10 @@ paginate = 10
   [[menu.link]]
     name = "Blog"
     url = "https://gw4-isambard.github.io/blog"
+    weight = 2
+  [[menu.link]]
+    name = "Support"
+    url = "https://gw4-isambard.github.io/docs/user-guide/support.html"
     weight = 2
 
 [frontmatter]
