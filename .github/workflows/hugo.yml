@@ -33,9 +33,7 @@ jobs:
 
       - name: Build 🔨
         run: |
-          hugo --baseURL ${GITHUB_PAGES_BASE_URL}/${GITHUB_REPOSITORY#*/}
-        env:
-          GITHUB_PAGES_BASE_URL: "https://${GITHUB_ACTOR}.github.io"
+          hugo --baseURL https://${GITHUB_ACTOR}.github.io/${GITHUB_REPOSITORY#*/}
 
       - name: Deploy 📦
         uses: peaceiris/actions-gh-pages@v3
