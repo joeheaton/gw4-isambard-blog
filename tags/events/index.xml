@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>events on GW4 Isambard</title>
-    <link>./tags/events/</link>
+    <link>https://joeheaton.github.io/gw4-isambard-blog/tags/events/</link>
     <description>Recent content in events on GW4 Isambard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 23 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="./tags/events/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://joeheaton.github.io/gw4-isambard-blog/tags/events/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Isambard A64fx hackathon, March 23-24 - &#34;Full steam ahead!&#34;</title>
-      <link>./posts/events/hackathon3/</link>
+      <link>https://joeheaton.github.io/gw4-isambard-blog/posts/events/hackathon3/</link>
       <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>./posts/events/hackathon3/</guid>
+      <guid>https://joeheaton.github.io/gw4-isambard-blog/posts/events/hackathon3/</guid>
       <description>A two-day hackathon to focus on porting and optimising HPC codes to the latest Arm-based processor: Fujitsu&amp;rsquo;s A64fx
 Tue, 23 Mar 2021, 09:30 – Wed, 24 Mar 2021, 17:00 GMT
 https://www.eventbrite.co.uk/e/the-3rd-isambard-hackathon-full-steam-ahead-tickets-143718930189
@@ -44,10 +44,10 @@ https://doi.org/10.1002/cpe.5569</description>
     
     <item>
       <title>Isambard Hackathon #2 &#34;Stoking The Fire&#34;</title>
-      <link>./posts/events/stoking-the-first/</link>
+      <link>https://joeheaton.github.io/gw4-isambard-blog/posts/events/stoking-the-first/</link>
       <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>./posts/events/stoking-the-first/</guid>
+      <guid>https://joeheaton.github.io/gw4-isambard-blog/posts/events/stoking-the-first/</guid>
       <description>The second Isambard hackathon &amp;ldquo;Stoking The Fire&amp;rdquo; ended yesterday after a day and a half of hacking on the second half of the top 10 most common Archer codes + UM/NEMO. There were specialists for each code in attendance, Cray compiler developers and Cavium engineers.
 I was really pleased to see the system handling the workload without incident and surprised that this time not a single node crashed! That alone makes the week it took to upgrade the ARM chips worth it!
 There were bugs in some codes being run, there were even a couple of compiler and performance tool bugs discovered and raised with Cray; At this early stage every bug found is a step towards getting the platform closer to operational quality!

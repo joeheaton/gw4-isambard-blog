@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on GW4 Isambard</title>
-    <link>./posts/</link>
+    <link>https://joeheaton.github.io/gw4-isambard-blog/posts/</link>
     <description>Recent content in Posts on GW4 Isambard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 13 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="./posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://joeheaton.github.io/gw4-isambard-blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MACS Major Upgrade to RHEL8</title>
-      <link>./posts/updates/macs-rhel8/</link>
+      <link>https://joeheaton.github.io/gw4-isambard-blog/posts/updates/macs-rhel8/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>./posts/updates/macs-rhel8/</guid>
+      <guid>https://joeheaton.github.io/gw4-isambard-blog/posts/updates/macs-rhel8/</guid>
       <description>The GW4 Isambard Multi-Architecture Comparison System will be unavailable for the week of the 19th April to perform planned upgrades &amp;amp; maintenance of the software stack.
 This is a major software upgrade to Red Hat Enterprise Linux 8, bringing the Operating System major version inline with the A64FX service, it will provide a better base for software development and improve the MACS compatibility with scientific software, including the Cray software stack.
 Some user software compatibility issues are to be expected due to changed/updated libraries, so recompilations may be required to continue running on MACS.
@@ -21,10 +21,10 @@ XCI &amp;amp; A64FX remain available during this time.</description>
     
     <item>
       <title>Isambard A64fx hackathon, March 23-24 - &#34;Full steam ahead!&#34;</title>
-      <link>./posts/events/hackathon3/</link>
+      <link>https://joeheaton.github.io/gw4-isambard-blog/posts/events/hackathon3/</link>
       <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>./posts/events/hackathon3/</guid>
+      <guid>https://joeheaton.github.io/gw4-isambard-blog/posts/events/hackathon3/</guid>
       <description>A two-day hackathon to focus on porting and optimising HPC codes to the latest Arm-based processor: Fujitsu&amp;rsquo;s A64fx
 Tue, 23 Mar 2021, 09:30 – Wed, 24 Mar 2021, 17:00 GMT
 https://www.eventbrite.co.uk/e/the-3rd-isambard-hackathon-full-steam-ahead-tickets-143718930189
@@ -56,10 +56,10 @@ https://doi.org/10.1002/cpe.5569</description>
     
     <item>
       <title>Cray Compiler Environment (CCE) 9.0.0 installed</title>
-      <link>./posts/updates/cce-9/</link>
+      <link>https://joeheaton.github.io/gw4-isambard-blog/posts/updates/cce-9/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>./posts/updates/cce-9/</guid>
+      <guid>https://joeheaton.github.io/gw4-isambard-blog/posts/updates/cce-9/</guid>
       <description>Cray CCE 9.0.0 has been installed on XCI, feel free to test it out by loading the cdt/19.06 module!
 This is a major revision to CCE with the compilers being based on LLVM.
 Documentation can be found here: https://pubs.cray.com/content/S-5212/9.0/cray-compiling-environment-cce-release-overview/cce-900-release-overview-introduction</description>
@@ -67,19 +67,19 @@ Documentation can be found here: https://pubs.cray.com/content/S-5212/9.0/cray-c
     
     <item>
       <title>XCI: Huge page bug fixed</title>
-      <link>./posts/updates/hugepage-fixed/</link>
+      <link>https://joeheaton.github.io/gw4-isambard-blog/posts/updates/hugepage-fixed/</link>
       <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>./posts/updates/hugepage-fixed/</guid>
+      <guid>https://joeheaton.github.io/gw4-isambard-blog/posts/updates/hugepage-fixed/</guid>
       <description>Cray has deployed the first monthly patchset on XCI which has included a fix for the Out-Of-Memory errors which some jobs using Huge Pages have experienced.</description>
     </item>
     
     <item>
       <title>Isambard XC50 software &amp; chip updates</title>
-      <link>./posts/announcements/xci-software-and-chip-upgrade/</link>
+      <link>https://joeheaton.github.io/gw4-isambard-blog/posts/announcements/xci-software-and-chip-upgrade/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>./posts/announcements/xci-software-and-chip-upgrade/</guid>
+      <guid>https://joeheaton.github.io/gw4-isambard-blog/posts/announcements/xci-software-and-chip-upgrade/</guid>
       <description>Next week (w/c 11th March), we will be shutting down XCI to upgrade both the hardware and system software. This process will likely take the full week, and so we expect to resume service from Monday 18th March.
 These upgrades will move us to Cray Linux Environment 7.0, which bumps the underlying Operating System from SLES 12 to SLES 15. It is expected that this may cause existing dynamically linked executables to fail to run, so we recommend recompiling any such programs that you may have once the upgrade is completed. Note that after the upgrade, the minimum available Cray Developer Toolkit will be CDT 19.03, and so you may encounter some issues when recompiling your codes.
 Updates 14 March: The upgrade is proceeding smoothly, XCI is running it&amp;rsquo;s new software stack on fresh chips!
@@ -88,10 +88,10 @@ We are working now to ensure the service is stable, configured correctly for use
     
     <item>
       <title>XCI: System update</title>
-      <link>./posts/updates/xci-update/</link>
+      <link>https://joeheaton.github.io/gw4-isambard-blog/posts/updates/xci-update/</link>
       <pubDate>Fri, 25 Jan 2019 00:00:00 +0000</pubDate>
       
-      <guid>./posts/updates/xci-update/</guid>
+      <guid>https://joeheaton.github.io/gw4-isambard-blog/posts/updates/xci-update/</guid>
       <description>Cray CDT/18.12 installed as module cdt/18.12
 Cray CDT/18.11 remains available
 Arm Compiler version 19 installed as module PrgEnv-allinea
@@ -103,20 +103,20 @@ All of the new modules have been set as the default versions, which means they w
     
     <item>
       <title>New documentation!</title>
-      <link>./posts/announcements/new-docs/</link>
+      <link>https://joeheaton.github.io/gw4-isambard-blog/posts/announcements/new-docs/</link>
       <pubDate>Tue, 16 Oct 2018 00:00:00 +0000</pubDate>
       
-      <guid>./posts/announcements/new-docs/</guid>
+      <guid>https://joeheaton.github.io/gw4-isambard-blog/posts/announcements/new-docs/</guid>
       <description>New Isambard user documentation source! =&amp;gt; https://gw4-isambard.github.io/docs/
 If you want to contribute we&amp;rsquo;re happy to review pull requests, or just email changes your local GW4 SysAdmin!</description>
     </item>
     
     <item>
       <title>XC50 Approaches...</title>
-      <link>./posts/updates/xc50-approaches/</link>
+      <link>https://joeheaton.github.io/gw4-isambard-blog/posts/updates/xc50-approaches/</link>
       <pubDate>Thu, 07 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>./posts/updates/xc50-approaches/</guid>
+      <guid>https://joeheaton.github.io/gw4-isambard-blog/posts/updates/xc50-approaches/</guid>
       <description>The single cabinet consists of approx 164 compute nodes of 64 cores each, for a total of 10&#39;496 cores of Cavium Thunder X2 ARMv8, backed by the same Aries interconnect. A 0.5 Petabyte Lustre filesystem is dedicated to the Isambard system.
 Discussions are underway on acceptance tests, we expect to run HPL (LINPACK), HPCG, STREAM, MPI &amp;amp; I/O benchmarks. Some practical codes will also be run for comparison against the numbers produced on the Early Access nodes ( http://www.goingarm.com/slides/2017/SC17/GoingArm_SC17_Bristol_Isambard.pdf ), including UM/NEMO, a chemistry and an engineering code.
 The HPC group at Bristol Uni has recently put out a paper on these numbers in more depth: https://uob-hpc.github.io/assets/cug-2018.pdf</description>
@@ -124,10 +124,10 @@ The HPC group at Bristol Uni has recently put out a paper on these numbers in mo
     
     <item>
       <title>Isambard Hackathon #2 &#34;Stoking The Fire&#34;</title>
-      <link>./posts/events/stoking-the-first/</link>
+      <link>https://joeheaton.github.io/gw4-isambard-blog/posts/events/stoking-the-first/</link>
       <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>./posts/events/stoking-the-first/</guid>
+      <guid>https://joeheaton.github.io/gw4-isambard-blog/posts/events/stoking-the-first/</guid>
       <description>The second Isambard hackathon &amp;ldquo;Stoking The Fire&amp;rdquo; ended yesterday after a day and a half of hacking on the second half of the top 10 most common Archer codes + UM/NEMO. There were specialists for each code in attendance, Cray compiler developers and Cavium engineers.
 I was really pleased to see the system handling the workload without incident and surprised that this time not a single node crashed! That alone makes the week it took to upgrade the ARM chips worth it!
 There were bugs in some codes being run, there were even a couple of compiler and performance tool bugs discovered and raised with Cray; At this early stage every bug found is a step towards getting the platform closer to operational quality!

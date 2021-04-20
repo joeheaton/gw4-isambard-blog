@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MACS on GW4 Isambard</title>
-    <link>./tags/macs/</link>
+    <link>https://joeheaton.github.io/gw4-isambard-blog/tags/macs/</link>
     <description>Recent content in MACS on GW4 Isambard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 13 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="./tags/macs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://joeheaton.github.io/gw4-isambard-blog/tags/macs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MACS Major Upgrade to RHEL8</title>
-      <link>./posts/updates/macs-rhel8/</link>
+      <link>https://joeheaton.github.io/gw4-isambard-blog/posts/updates/macs-rhel8/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>./posts/updates/macs-rhel8/</guid>
+      <guid>https://joeheaton.github.io/gw4-isambard-blog/posts/updates/macs-rhel8/</guid>
       <description>The GW4 Isambard Multi-Architecture Comparison System will be unavailable for the week of the 19th April to perform planned upgrades &amp;amp; maintenance of the software stack.
 This is a major software upgrade to Red Hat Enterprise Linux 8, bringing the Operating System major version inline with the A64FX service, it will provide a better base for software development and improve the MACS compatibility with scientific software, including the Cray software stack.
 Some user software compatibility issues are to be expected due to changed/updated libraries, so recompilations may be required to continue running on MACS.
@@ -21,10 +21,10 @@ XCI &amp;amp; A64FX remain available during this time.</description>
     
     <item>
       <title>Cray Compiler Environment (CCE) 9.0.0 installed</title>
-      <link>./posts/updates/cce-9/</link>
+      <link>https://joeheaton.github.io/gw4-isambard-blog/posts/updates/cce-9/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>./posts/updates/cce-9/</guid>
+      <guid>https://joeheaton.github.io/gw4-isambard-blog/posts/updates/cce-9/</guid>
       <description>Cray CCE 9.0.0 has been installed on XCI, feel free to test it out by loading the cdt/19.06 module!
 This is a major revision to CCE with the compilers being based on LLVM.
 Documentation can be found here: https://pubs.cray.com/content/S-5212/9.0/cray-compiling-environment-cce-release-overview/cce-900-release-overview-introduction</description>

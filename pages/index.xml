@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on GW4 Isambard</title>
-    <link>./pages/</link>
+    <link>https://joeheaton.github.io/gw4-isambard-blog/pages/</link>
     <description>Recent content in Pages on GW4 Isambard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate><atom:link href="./pages/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://joeheaton.github.io/gw4-isambard-blog/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Media coverage</title>
-      <link>./media/</link>
+      <link>https://joeheaton.github.io/gw4-isambard-blog/media/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>./media/</guid>
+      <guid>https://joeheaton.github.io/gw4-isambard-blog/media/</guid>
       <description>2020  TheNextPlatform - Isambard 2 Is About Driving Technology Diversity InsideHPC - Isambard 2 at UK Met Office to be largest Arm supercomputer in Europe  2019  University of Bristol HPC - Isambard wins &amp;ldquo;Best Paper&amp;rdquo; award at the 2019 Cray User Group (CUG) Conference in Montreal  2018  HPCWire - GW4, the MET Office, and Cray Power Up the Largest ARM-based Supercomputer in Europe Top500 - Benchmarks in Hand, UK Academics See Promising Future for Arm Chips in HPC University of Bristol HPC - Isambard Arm results showcased at the 2018 Cray User Group (CUG) Conference in Stockholm  2017  TheNextPlatform - ARM Benchmarks Show HPC Ripe for Processor Shakeup TheNextPlatform - Cray ARMs Highest End Supercomputer with ThunderX2 Top500 - Cray to Deliver ARM-Powered Supercomputer to UK Consortium InsideHPC - Future Technologies on the Rise for HPC GW4 - GW4 JOINS INDUSTRY PARTNERS TO DEVELOP ‘FIRST OF ITS KIND’ SUPERCOMPUTER  </description>
     </item>
     
     <item>
       <title>System Overview</title>
-      <link>./overview/</link>
+      <link>https://joeheaton.github.io/gw4-isambard-blog/overview/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>./overview/</guid>
+      <guid>https://joeheaton.github.io/gw4-isambard-blog/overview/</guid>
       <description>Isambard is a HPC service provided by GW4 and the UK Met Office. The system is funded by EPSRC and is one of a number of Tier-2 HPC facilities in the UK.
 Isambard includes a production Cray XC50 system, named &amp;ldquo;XCI&amp;rdquo;, which comprises 20,992 cores, and is one of the world’s first production Arm-based supercomputers. While Isambard is not based on the more common x86 processors from Intel and AMD, most software compiles and runs on Isambard with no or minimal changes.
 Each of the 329 compute nodes contain two 32-core Marvell ThunderX2 processors running at 2.5 GHz. 160 nodes have 256 GB and 169 have 512 GB of memory, both at DDR4-2666MHz. The nodes are connected via Cray Aries interconnect in a Dragonfly topology. A Cray Sonexion 3000 storage cabinet provides 900 terabytes of Lustre storage.
