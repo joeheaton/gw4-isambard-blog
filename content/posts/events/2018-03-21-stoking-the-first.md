@@ -22,3 +22,5 @@ The following codes were run successfully:
 * NAMD
 * Hydro3D
 * Bookleaf
+
+![2018-stoking-the-fire-isambard.jpg](/images/2018-stoking-the-fire-isambard.jpg)
