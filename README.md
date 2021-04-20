@@ -1,10 +1,9 @@
 # GW4 Isambard Blog
 
 Built using [Hugo static site generator](https://gohugo.io).
-
 ## Usage
 
-Install Hugo and run the following to generate a templated post.
+Install Hugo, set `baseURL` in `config.toml` to the URL you are previewing the site at, and then run the following to generate a templated post:
 
 ```
 > hugo new posts/updates/2021-04-20-test.md
