@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A64fx on GW4 Isambard</title>
-    <link>/tags/a64fx/</link>
+    <link>./tags/a64fx/</link>
     <description>Recent content in A64fx on GW4 Isambard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 23 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/a64fx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="./tags/a64fx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Isambard A64fx hackathon, March 23-24 - &#34;Full steam ahead!&#34;</title>
-      <link>/posts/events/hackathon3/</link>
+      <link>./posts/events/hackathon3/</link>
       <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>/posts/events/hackathon3/</guid>
+      <guid>./posts/events/hackathon3/</guid>
       <description>A two-day hackathon to focus on porting and optimising HPC codes to the latest Arm-based processor: Fujitsu&amp;rsquo;s A64fx
 Tue, 23 Mar 2021, 09:30 – Wed, 24 Mar 2021, 17:00 GMT
 https://www.eventbrite.co.uk/e/the-3rd-isambard-hackathon-full-steam-ahead-tickets-143718930189

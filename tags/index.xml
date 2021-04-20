@@ -2,62 +2,62 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on GW4 Isambard</title>
-    <link>/tags/</link>
+    <link>./tags/</link>
     <description>Recent content in Tags on GW4 Isambard</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Tue, 13 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="./tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MACS</title>
-      <link>/tags/macs/</link>
+      <link>./tags/macs/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/macs/</guid>
+      <guid>./tags/macs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>updates</title>
-      <link>/tags/updates/</link>
+      <link>./tags/updates/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/updates/</guid>
+      <guid>./tags/updates/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A64fx</title>
-      <link>/tags/a64fx/</link>
+      <link>./tags/a64fx/</link>
       <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/a64fx/</guid>
+      <guid>./tags/a64fx/</guid>
       <description></description>
     </item>
     
     <item>
       <title>events</title>
-      <link>/tags/events/</link>
+      <link>./tags/events/</link>
       <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>/tags/events/</guid>
+      <guid>./tags/events/</guid>
       <description></description>
     </item>
     
     <item>
       <title>XCI</title>
-      <link>/tags/xci/</link>
+      <link>./tags/xci/</link>
       <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/xci/</guid>
+      <guid>./tags/xci/</guid>
       <description></description>
     </item>
     
     <item>
       <title>announcements</title>
-      <link>/tags/announcements/</link>
+      <link>./tags/announcements/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tags/announcements/</guid>
+      <guid>./tags/announcements/</guid>
       <description></description>
     </item>
     
