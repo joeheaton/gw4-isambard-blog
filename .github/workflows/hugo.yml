@@ -1,0 +1,38 @@
+name: github pages
+
+on:
+  push:
+    branches:
+      - main
+      - actions
+    paths-ignore:
+      - 'README.md'
+      - 'Dockerfile'
+      - '*.sh'
+      - 'public/'
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Prepare repos 🥣
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo 🧪
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.82.0'
+          extended: true
+
+      - name: Build 🔨
+        run: |
+          hugo
+
+      - name: Deploy 📦
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          publish_dir: ./public
