@@ -1,5 +1,4 @@
 #baseURL = "https://gw4-isambard.github.io/blog"
-baseURL = "."
 canonifyurls = true
 languageCode = "en-gb"
 title = "GW4 Isambard"

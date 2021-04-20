@@ -15,6 +15,9 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
     steps:
       - name: Prepare repos 🥣
         uses: actions/checkout@v2
@@ -30,7 +33,9 @@ jobs:
 
       - name: Build 🔨
         run: |
-          hugo
+          hugo --baseURL ${{GITHUB_PAGES_BASE_URL}}/${GITHUB_REPOSITORY#*/}
+        env:
+          GITHUB_PAGES_BASE_URL: "https://${{GITHUB_ACTOR}}.github.io"
 
       - name: Deploy 📦
         uses: peaceiris/actions-gh-pages@v3
