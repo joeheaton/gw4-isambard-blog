@@ -1,5 +1,4 @@
 #baseURL = "https://gw4-isambard.github.io/blog"
-baseURL = "https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public"
 languageCode = "en-gb"
 title = "GW4 Isambard"
 theme = "fuji"
