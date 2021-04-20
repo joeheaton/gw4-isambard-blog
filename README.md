@@ -16,3 +16,5 @@ You can replace `updates` with any tag:
 - `events` - Hackathons, training..
 - `science` - Results, papers..
 - `updates` - Minor/Regular Software updates, new software packages..
+
+Remember to remove the date from the posts Title.
