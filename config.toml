@@ -1,0 +1,47 @@
+#baseURL = "https://gw4-isambard.github.io/blog"
+baseURL = "https://localhost/code/hpc/gw4-isambard/gw4-sysadmin-blog/public"
+languageCode = "en-gb"
+title = "GW4 Isambard"
+theme = "fuji"
+
+summaryLength = 1000
+paginate = 10
+#enableGitInfo = true
+
+[params]
+  showLicense = false
+  showLicenseInFooter = true
+  license = "GW4 Isambard"
+  licenseLink = "https://gw4.ac.uk"
+
+  showToc = false
+
+  sourceURL = "https://github.com/gw4-isambard/blog"
+
+[menus]
+  #[[menu.nav]]
+  #  name = "Home"
+  #  url = "/"
+  #  weight = 1
+  [[menu.link]]
+    name = "User Documentation"
+    url = "https://gw4-isambard.github.io/docs"
+    weight = 1
+  [[menu.link]]
+    name = "Blog"
+    url = "https://gw4-isambard.github.io/blog"
+    weight = 2
+
+[frontmatter]
+date = ["date", "publishDate", ":filename"]
+lastmod = ["lastmod", ":git", ":fileModTime"]
+publishDate = ["publishDate", "date"]
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # HTML in .md
