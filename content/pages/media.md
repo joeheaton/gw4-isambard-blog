@@ -6,6 +6,7 @@ url: /media
 
 
 
+
 ## 2020
 
 - [TheNextPlatform - Isambard 2 Is About Driving Technology Diversity](https://www.nextplatform.com/2020/03/08/isambard-2-is-about-driving-technology-diversity/)
